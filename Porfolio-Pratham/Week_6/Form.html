@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="icon" href="https://www.pngfind.com/pngs/m/506-5069981_ark-forms-form-icon-png-transparent-png.png">
+     <style>
+        table,td,th
+        {
+            border: 1px solid rgb(0, 0, 0); 
+            box-shadow: rgb(68, 68, 68);
+        }
+        td
+        {
+            text-align: center;
+        }         
+     </style>
+    </head>
+    <body style="background-color: rgb(247, 204, 152);">
+        <form action="get">
+        <table align="center" cellspacing="5px" width="40%"  style="background-color: rgb(195, 191, 191); " >
+            <caption style="font-size: 20px; color: rgb(0, 0, 0);">Registration Form</caption>
+            <tr>
+                <th style="padding-right: 30px; padding-left: 10px; font-size: 16px;">Enter your First Name</th>
+                <td><input type="text"  size="25" maxlength="25" name="Name_1" placeholder="Enter your first name"></td>
+            </tr>
+            <tr>
+
+                <th style="padding-right: 30px; padding-left: 10px;">Enter your Last Name</th>
+                <td><input type="text" size="25" maxlength="20" name="Name_2"></td>
+                
+            </tr>
+            <tr>
+                <th style="padding-right: 30px; padding-left: 10px;">Enter your Password</th>
+                <td><input type="password" size="25" maxlength="20" name="Password"></td>
+            </tr>
+
+            <tr>
+                <th style="padding-right: 30px; padding-left: 10px;">Re-Enter your Password</th>
+                <td><input type="password" size="25" maxlength="20" name="Password"></td>
+            </tr>
+            <tr>
+                <th style="font-size: 17px;">Enter your email</th>
+                <td><input type="text" size="25" maxlength="35" name="email"></td>
+            </tr>
+            <tr>
+                <th>Enter your mobile</th>
+                <td><input type="text" size="25" maxlength="10" name="Number"></td>
+            </tr>
+            <tr>
+              <th>Enter your Address</th>
+              <td><textarea name="comment" cols="23" rows="8"></textarea></td>
+             </tr>  
+             <tr>
+                 <th>Select your Gender</th>
+                <td>
+                    Male<input type="radio" id="male" name="gender" value="male">
+                    Female<input type="radio" id="female" name="gender" value="female">
+                </td>
+            </tr>
+                <tr>
+                    <th>Select your Hobby</th>
+                    <td>
+                        Game<input type="checkbox" id="game" name="hobby" value="game">
+                        Study<input type="checkbox" id="study" name="hobby" value="hobby">
+                        Music <input type="checkbox" id="music" name="hobby" value="music">                       
+                    </td>
+                </tr>
+                <tr>
+                    <th>Select your DOB</th>
+                    <td><input type="text" name="date" size="19" maxlength="15" placeholder="dd-mm-yyyy" style="text-align: center;"> </td>
+                </tr>
+                <tr>
+                    <th>Select your Country</th>
+                    <td>                     
+                        <select name="country">
+                            <option value="A0">Select your Country</option>
+                            <option value="A1">Nepal</option>
+                            <option value="A2">India</option>
+                            <option value="A3">China</option>
+                            <option value="A4">USA</option>
+                        </select>
+                </tr>
+                <tr>
+                    <th>Upoload your Pic</th>
+                    <td>
+                        <input type="file" value="file" id="file" name="file">
+                    </td>
+                </tr>
+                <tr align="center">
+
+                    <td colspan="2" >
+                    <input type="submit" value="Save My Data">
+                    <input type="reset" value="Reset Data">
+                    </td>
+
+                </tr>
+                
+            
+             
+
+        </table>
+     </form>
+    </body>
+    
+</html>
